@@ -1,0 +1,376 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_event_seat_booking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-22 11:21+0000\n"
+"PO-Revision-Date: 2020-10-22 11:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid ""
+"<span class=\"total\">Total : </span> \n"
+"\t\t\t                                <b>$\n"
+"\t\t\t                                    <span id=\"total\">0</span>\n"
+"\t\t\t                                </b>"
+msgstr ""
+"<span class=\"total\">Le total : </span> \n"
+"\t\t\t                                <b>$\n"
+"\t\t\t                                    <span id=\"total\">0</span>\n"
+"\t\t\t                                </b>"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "<span>&amp;times;</span>"
+msgstr "<span> & amp; fois; </ span>"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "<strong> You ordered more tickets than available seats</strong>"
+msgstr "<Strong> Vous avez commandé plus de billets que les sièges disponibles </ forts>"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Attendees"
+msgstr "Participants"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__name
+msgid "Booked Seat"
+msgstr "Siège réservé"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event__booked_seat_ids
+msgid "Booked Seat List"
+msgstr "Liste de siège réservée"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__seat_no
+msgid "Booked Seat No"
+msgstr "Siège réservé non"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_sale_ticket_form_inherit
+msgid "Booked Seats"
+msgstr "Sièges réservés"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: sh_event_seat_booking
+#. openerp-web
+#: code:addons/sh_event_seat_booking/static/src/xml/eventboard.xml:0
+#, python-format
+msgid "Change Seat"
+msgstr "Changer de siège"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+msgid "Clear Seat Arrangement"
+msgstr "Arrangement de siège clair"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Close"
+msgstr "proche"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__col_count
+msgid "Column"
+msgstr "Colonne"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__seat_selection_ids
+msgid "Column Selection"
+msgstr "Sélection de colonne"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Continue"
+msgstr "Continuer"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__create_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__create_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__create_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__create_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__create_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__create_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_registration__display_name
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Email"
+msgstr "E-mail"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_event
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__event_id
+msgid "Event"
+msgstr "Événement"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_booking_dashboard
+msgid "Event Booking"
+msgstr "Réservation d'événement"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_registration
+msgid "Event Registration"
+msgstr "Enregistrement de l'événement"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__seat_arrangement_ids
+msgid "Event Seat Arrangement"
+msgstr "Arrangement de siège d'événement"
+
+#. module: sh_event_seat_booking
+#: model:ir.actions.client,name:sh_event_seat_booking.event_seat_booking_action
+msgid "Event Seat Booking Board"
+msgstr "Boîtier de réservation de siège d'événements"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_event_ticket
+msgid "Event Ticket"
+msgstr "Billet d'événement"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid "Event Title"
+msgstr "Titre de l'événement"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_registration__id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event__is_seat_booking
+msgid "Is Seat Booking ?"
+msgstr "La réservation de siège est-elle?"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_registration____last_update
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification sur"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__write_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__write_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__write_uid
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__write_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__write_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__write_date
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+msgid "Max Seat Number in Single row"
+msgstr "Numéro de siège maximal en rangée unique"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booking_dashboard__name
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Name"
+msgstr "Nom"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_sale_ticket_tree_inherit
+msgid "Open Seat Arrangement"
+msgstr "Arrangement de siège ouvert"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Phone <small>(Optional)</small>"
+msgstr "Téléphone <petit> (facultatif) </ petit>"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+msgid "Prepare Seat Arrangement"
+msgstr "Préparer l'arrangement de siège"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid "Register"
+msgstr "S'inscrire"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__row_count
+msgid "Row"
+msgstr "Ligne"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__row
+msgid "Row No"
+msgstr "Rangée non"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid "SCREEN"
+msgstr "FILTRER"
+
+#. module: sh_event_seat_booking
+#. openerp-web
+#: code:addons/sh_event_seat_booking/static/src/xml/eventboard.xml:0
+#, python-format
+msgid "SCREEN123"
+msgstr "Écran123"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.constraint,message:sh_event_seat_booking.constraint_available_seat_selection_name_uniq
+msgid "Seat Already exist !"
+msgstr "Le siège existe déjà!"
+
+#. module: sh_event_seat_booking
+#: code:addons/sh_event_seat_booking/models/models.py:0
+#: code:addons/sh_event_seat_booking/models/models.py:0
+#: code:addons/sh_event_seat_booking/models/models.py:0
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+#, python-format
+msgid "Seat Arrangement"
+msgstr "Arrangement de siège"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_details_full_inherit
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid "Seat Booking"
+msgstr "Réservation de siège"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_available_seat_selection__name
+msgid "Seat Column"
+msgstr "Colonne de siège"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_registration__seat_no
+msgid "Seat No"
+msgstr "Siège non"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_registration_attendee_details
+msgid "Seat No #"
+msgstr "Siège no #"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_registration_kanban_inherit
+msgid "Seat No :"
+msgstr "Siège no:"
+
+#. module: sh_event_seat_booking
+#. openerp-web
+#: code:addons/sh_event_seat_booking/static/src/xml/eventboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+#, python-format
+msgid "Seat Selection Information"
+msgstr "Informations sur la sélection du siège"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.website_seat_booking_template
+#: model_terms:website.page,arch_db:sh_event_seat_booking.seat_booking_page
+msgid ""
+"Selected Seats (\n"
+"\t\t\t                                    <span id=\"counter\">0</span>):"
+msgstr ""
+"Sièges sélectionnés (\n"
+"\t\t\t                                    <span id=\"counter\">0</span>):"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_event_ticket__sequence
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__sequence
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_registration_form_inherit
+msgid "Switch Seat"
+msgstr "Siège de commutation"
+
+#. module: sh_event_seat_booking
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_booked_seat__event_ticket_id
+#: model:ir.model.fields,field_description:sh_event_seat_booking.field_event_seat_arrangement__event_ticket_id
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+msgid "Ticket Type"
+msgstr "Type de billet"
+
+#. module: sh_event_seat_booking
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_sale_ticket_tree_inherit
+#: model_terms:ir.ui.view,arch_db:sh_event_seat_booking.sh_event_seat_arrangement_form
+msgid "Total Row"
+msgstr "Rangée totale"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_available_seat_selection
+msgid "available.seat.selection"
+msgstr "disponible.seat.Selection"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_booked_seat
+msgid "event.booked.seat"
+msgstr "événement.Booked.seat.seat"
+
+#. module: sh_event_seat_booking
+#: model:ir.model,name:sh_event_seat_booking.model_event_seat_arrangement
+msgid "event.seat.arrangement"
+msgstr "event.seat.arrangement"
+
+
+#. module: sh_event_seat_booking
+#: code:addons/sh_event_seat_booking/controllers/main.py:0
+#: code:addons/sh_event_seat_booking/controllers/main.py:0
+#, python-format
+msgid "Already Booked"
+msgstr "Déjà réservé"
